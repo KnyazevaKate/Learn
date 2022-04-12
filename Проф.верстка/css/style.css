@@ -2204,3 +2204,211 @@ top: 0; left: 0;
 color: #000000;
 margin-right: 5px;
 }
+
+
+@media (max-width: 768px) {
+
+.container {
+width: 100%;
+max-width: 768px;
+  
+}
+
+.logo__search {
+margin-left: 30px;
+}
+
+.navbar {
+margin-right: 30px;
+}
+
+/*------------------------------------ Страница Index--------------------------------------*/
+
+.top{
+min-height: 440px;
+}
+.top .top__content {
+background-size: 60% auto;
+background-position: -63px 0;
+min-height: 440px;
+}
+
+.top__info {
+margin: 24px 150px 30px 30px;
+}
+
+.main__cover-box {
+flex-direction: row;
+}
+
+.main__cover {
+width: 250px;
+height: 183px;
+background-size: 100%;
+}
+
+.accessories {
+width: 1140px;
+height: 123px;
+}
+
+.products__list {
+justify-content: space-around;
+}
+
+.products__item {
+width: 47.3%;
+margin-right: 0;
+}
+
+.advantages {
+height: 610px;
+}
+
+.advantages__items {
+flex-direction: column;
+
+}
+
+.advantages__card {
+margin-bottom: 33px;
+}
+/*----------------------------------Footer---------------------------------------------*/
+.footer-top {
+  background-position: 0%;
+}
+
+.subscribe {
+flex-direction: column;
+height: 693px;
+}
+
+.subscribe-left {
+margin-top: 50px;
+}
+
+.subscribe-right {
+height: 320px;
+}
+
+
+.copyright__txt {
+margin-left: 30px;
+}
+
+.socials__list {
+  margin-right: 30px;
+}
+
+/*---------------------------------Catalog-----------------------------------------------*/
+
+
+}
+
+@media (max-width: 375px) {
+.container {
+width: 100%;
+max-width: 375px;
+
+}
+
+.link {
+display: none;
+}
+
+.header {
+  max-width: 375px;
+}
+
+/*------------------------------------ Страница Index--------------------------------------*/
+
+.top {
+min-height: 363px;
+}
+
+.top .top__content {
+background-image: none;
+min-height: 440px; }
+
+.top .top__info {
+width: 87%;
+height: 93px;
+margin: 0 auto;
+}
+
+.banner-wrp {
+margin: 0;
+padding-left: 61px;
+}
+
+.banner-wrp::before {
+ left:20px;
+ height: 70px;
+ width: 11px;
+ top: 0;
+
+}
+
+.banner-title {
+font-size: 38px;
+line-height: 16px
+}
+
+.banner-subtitle {
+font-size: 22px;
+}
+
+
+.main__cover-box {
+justify-content: space-around;
+}
+
+.main__cover {
+width: 370px;
+height: 254px;
+background-size: 100%;
+}
+
+.accessories {
+height: 123px;
+background-size: cover;
+}
+
+.products__list {
+flex-direction: column;
+}
+
+.products__item {
+width: 96.3%;
+margin-right: 0;
+}
+
+
+/*----------------------------------Footer---------------------------------------------*/
+
+.subscribe-left {
+ margin-top: 50px;
+margin-left: -170px; 
+}
+
+.subscribe-right {
+width: 100%;
+}
+
+.copyright__content {
+flex-wrap: wrap;
+flex-direction: column-reverse;
+align-content: center;
+justify-content: center;
+}
+
+.socials__list {
+margin-bottom: 40px;
+margin-top: 30px;
+margin-left: 43px;
+}
+
+.copyright__txt {
+margin-bottom: 9px;
+}
+}
