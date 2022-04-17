@@ -105,6 +105,7 @@ width: 100%;
 max-width: 232px;
 min-height: 764px;
 padding-top: 37px;  
+z-index: 1;
 }
 
 .menu-list-close-btn{
@@ -838,6 +839,14 @@ button:focus-visible{
   display: block;
 }
 
+#switch-filter:checked ~ label span {
+  color: #f16d7f; 
+}
+
+#switch-filter:checked ~ label svg {
+  fill: #f16d7f;
+}
+
 .filter {
 width: 360px;
 padding: 13px 16px 16px 16px;
@@ -853,11 +862,12 @@ width: 100px;
 display: block;
 width: 100%;
 margin: 0 0 16px 0;
-padding: 0;
+padding: 15px 0 0 10px;
 background-color: transparent;
 border: none;
 color: #000000;
 text-align: left;
+position: absolute;
 }
 
 .filter-btn span {
@@ -895,8 +905,8 @@ z-index: 1;
 .filter-list {
 list-style: none;
 margin: 0;
-padding: 0;
-box-shadow: 10px 15px 40px -15px rgba(66, 63, 63, 0.466);
+padding: 29px 0px 20px 0px;
+box-shadow: 41px 38px 61px 15px rgba(66, 63, 63, 0.466);
 }
 
 .filter-list-size {
@@ -907,9 +917,9 @@ margin-bottom: 65px;
 margin-left: -38px;
 }
 .filter-list-item {
-width: 100%;
-margin: 0 0 18px 0;
-padding: 11px;
+width: 290px;
+margin: 0 0 0 12px;
+padding: 23px 0px 10px 20px;
 box-sizing: border-box;
 font-style: normal;
 font-weight: normal;
@@ -931,7 +941,7 @@ height: 37px;
 background-color: #EF5B70;
 position: absolute;
 bottom: -1px;
-left: 0;
+left: 1px;
 }
 
 .filter-list-item a {
@@ -958,7 +968,7 @@ color: #ccc;
 
 .filter-sublist {
 margin: 24px 0 0 0;
-padding: 0 0 0 7px;
+padding: 0 0 0 16px;
 box-sizing: border-box;
 list-style: none;
 }
@@ -1438,8 +1448,6 @@ font-size: 14px;
 line-height: 17px;
 color: #F16D7F;
 margin-top: 64px;
-margin-top: 64px;
-margin-left: px;
 text-align: center;
 }
 
@@ -2124,8 +2132,16 @@ color: #222222;
 margin-top: 50px;
 }
 
+.registration-input-field {
+flex-wrap: wrap;
+width: 265px;
+}
+
+
+
 .registration-input-field-form {
 padding-bottom: 33px;
+flex-wrap: wrap;
 }
 
 .registration-txt {
@@ -2336,6 +2352,11 @@ margin-bottom: -43px;
 
 .filter-list-size {
 justify-content: flex-end;
+margin-top: 45px;
+}
+
+.sorting-price-wrp-for-adaptive  {
+margin: 5px 0px 0px -83px;
 }
 
 .photo-adaptive {
@@ -2604,6 +2625,10 @@ margin-left: -19px
 
 .sorting-price-wrp {
     margin: 8px 0px 0px -102px;
+}
+
+.sorting-price-wrp-for-adaptive  {
+margin: 5px 0px 0px -83px;
 }
 
 .filter-svg-for-adaptive {

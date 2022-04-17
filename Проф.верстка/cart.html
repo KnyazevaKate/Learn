@@ -158,7 +158,7 @@ xmlns="http://www.w3.org/2000/svg">
 <p class="cart-product-data-txt">Price: <span class="data-txt-price">$300</span></p>
 <span class="cart-product-data-txt">Color: Red</span>
 <span class="cart-product-data-txt">Size: Xl</span>
-<p class="cart-product-data-txt">Quantity: <!--<span class="data-number-of-units">2</span>--><input type="number" class="data-number-of-units" placeholder="2"></p>
+<p class="cart-product-data-txt">Quantity: <input type="number" min="0" class="data-number-of-units" placeholder="2"></p>
 </div>
 </article>
 </li>
@@ -176,19 +176,19 @@ xmlns="http://www.w3.org/2000/svg">
 <p class="cart-product-data-txt">Price: <span class="data-txt-price">$300</span></p>
 <span class="cart-product-data-txt">Color: Red</span>
 <span class="cart-product-data-txt">Size: Xl</span>
-<p class="cart-product-data-txt">Quantity: <!--<span class="data-number-of-units">2</span>-->
-<input type="number" class="data-number-of-units" placeholder="2"></p>
+<p class="cart-product-data-txt">Quantity:
+<input type="number" min="0" class="data-number-of-units" placeholder="2"></p>
 </div>
 </article>
 </li>
 </ul>
 <div class="product-btn-clear-and-continue">
-<button class="btn-cart-shop">
+<button class="btn-cart-shop" type="submit">
 <a class="btn-cart-link" href="#">
 <span class="btn-cart-txt">clear shopping cart</span>
 </a>
 </button>
-<button class="btn-cart-shop">
+<button class="btn-cart-shop" type="submit">
 <a class="btn-cart-link" href="#">
 <span class="btn-cart-txt">continue shopping</span>
 </a>
@@ -210,7 +210,7 @@ xmlns="http://www.w3.org/2000/svg">
 <h3 class="total-cost-title">
 GRAND TOTAL &nbsp;&nbsp;&nbsp; <span class="total-cost-title-price">$900</span>
 </h3>
-<button class="cart-btn-place-an-order" type="button">
+<button class="cart-btn-place-an-order" type="submit">
 <span>PROCEED TO CHECKOUT</span>
 </button>
 </div>
